@@ -1,0 +1,26 @@
+/* 전체 스크롤 설정 */
+html, body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: auto; /* 부드러운 스크롤 X → 딱 끊어지는 느낌 */
+  overflow: hidden; /* body는 고정하고 내부 div에서 스크롤 */
+}
+
+/* 스크롤 가능한 컨테이너 */
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: auto;
+}
+
+/* 섹션마다 하나의 화면을 차지하게 설정 */
+.snap-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+}
