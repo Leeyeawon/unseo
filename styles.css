@@ -21,17 +21,16 @@ body {
   font-family: "DM Serif Display", serif;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 40px 20px;
+.title-section {
+  position: relative;
+  margin-top: 60px;
+  height: 100vh;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+.subtitle {
+  font-size: 25px;
+  color: #ffb6c1;
+  letter-spacing: 1px;
 }
 
 nav a {
@@ -41,16 +40,19 @@ nav a {
   font-size: 14px;
 }
 
-.subtitle {
-  font-size: 25px;
-  color: #ffb6c1;
-  letter-spacing: 1px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.title-section {
-  margin-top: 60px;
-  top: 300px; 
-  height: 100vh;
+.pink-box{
+
+}
+
+.subtitle{
+
 }
 
 .title-1 {
@@ -59,6 +61,26 @@ nav a {
   font-weight: 400;
   z-index: 100;
   color: #rgb(255, 255, 255)
+}
+
+.description{
+
+}
+.nav-buttons {
+  font-size: 14px;
+  color: #bbbbbb;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.index-Line1{
+
+}
+
+.Unseo_Index2{
+  position: absolute;
+  z-index: -2;
 }
 
 .Unseo_Index1 {
@@ -70,55 +92,13 @@ nav a {
   z-index: -1;
 }
 
-
-h1 {
-  font-size: 48px;
-  margin: 10px 0;
-}
-
-.description {
-  font-size: 16px;
-  line-height: 1.6;
-  max-width: 500px;
-  margin-bottom: 30px;
-}
-
-.nav-buttons {
-  font-size: 14px;
-  color: #bbbbbb;
-  display: flex;
-  justify-content: space-between;
-  width: 100px;
-}
-
 .profile-section {
+  position: relative;
+  height: 100vh;
   display: flex;
   margin-top: 80px;
   gap: 40px;
   left: 500px;
-}
-
-.profile-info h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-
-.profile-info h3 {
-  font-size: 18px;
-  margin: 20px 0 5px;
-  color: #cccccc;
-}
-
-.profile-info p {
-  margin: 5px 0;
-  font-size: 15px;
-}
-
-footer {
-  font-size: 12px;
-  color: #aaaaaa;
-  margin-top: 40px;
-  text-align: left;
 }
 
 .profile-container{
@@ -130,10 +110,158 @@ footer {
 
 }
 
-.profile-text{
+.profile{
 
 }
 
-.PROFILE{
+.PROFILE {
   font-family: "DM Serif Display", serif;
 }
+
+.profil-backtext1 {
+  font-family: "DM Serif Display", serif;
+  z-index: -1;
+}
+
+.profil-backtext2 {
+  font-family: "DM Serif Display", serif;
+  z-index: -1;
+}
+
+.illustrator-section {
+  font-family: "DM Serif Display", serif;
+  position: relative;
+  height: 100vh;
+
+}
+
+.midle-title{
+  font-family: "DM Serif Display", serif;
+}
+
+.Line-illustretion {
+}
+
+.illustration-img > img:nth-child(1) {
+  width: 1066px;
+}
+
+.illustration-img > img:nth-child(2) {
+  width: 140px;
+}
+
+.illustration-img > img:nth-child(3) {
+  width: 160px;
+}
+
+.illustration-img > img:nth-child(4) {
+  width: 746px;
+}
+
+.illustration-img > img:nth-child(5) {
+  width: 200px;
+}
+
+.Unseo-Illustrator {
+}
+
+.illustration-backtext1 {
+  z-index: -1;
+}
+
+.self-section {
+  position: relative;
+  height: 100vh;
+}
+
+.mini-title {
+}
+
+.tex-box {
+}
+
+.Youtube_botten {
+}
+
+.Line-box {
+  z-index: -1;
+}
+
+.black-gredient {
+  z-index: -2;
+}
+
+.typo-section {
+  position: relative;
+  height: 100vh;
+}
+
+.BusanContest-section {
+  position: relative;
+  height: 100vh;
+}
+
+.podcasts-section {
+  position: relative;
+  height: 100vh;
+}
+
+.podcasts-line1 {
+}
+
+.mini-title2 {
+}
+
+.podcasts_1 {
+}
+
+.text-box-podcasts {
+}
+
+.Youtube_botten2 {
+}
+
+.Youtube_botten3 {
+}
+
+.podcasts_episode {
+}
+
+.D-content {
+  position: relative;
+  height: 100vh;
+}
+
+.D-line1 {
+}
+
+.D-img {
+}
+
+.D-img1 {
+}
+
+.D-img2 {
+}
+
+.mini-title3 {
+}
+
+.text-box-3D {
+}
+
+.Youtube_botten4 {
+}
+
+.D-backtext {
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
