@@ -8,28 +8,13 @@ body {
   background-color: #272E32;
   color: #ffffff;
   overflow-x: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.wrapper {
-  width: 1920px;
-  margin: 0 auto;
-  position: relative;
-}
-
-section{
-  max-width: 1920px;
-  max-height: 1053px;
-  overflow: hidden;
-
 }
 
 .side-text {
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  font-size: 30px;
-  color: #ffffff;
+  font-size: 14px;
+  color: #aaaaaa;
   position: fixed;
   left: 10px;
   top: 100px;
@@ -39,113 +24,99 @@ section{
 
 .title-section {
   position: relative;
-  width: 100%;
-  padding: 140px 160px;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.main-header {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 60px;
-}
-
-.pink-box{
-  position: absolute;
-  top: 0;
-  left: 0px;
-  width: 100px;
-  z-index: -1;
+  margin-top: 80px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
 .subtitle {
-  font-size: 24px;
-  color: #FFDED2;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
+  font-size: 25px;
+  color: #ffb6c1;
+  letter-spacing: 1px;
 }
 
-.index-Line2{
-  width: 88px;
-  left: 1000px;
-  top: 300px;
-  z-index: -1; 
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pink-box{
+  position: absolute; /* 또는 fixed */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none; /* 클릭 방지 */
+}
+
+.subtitle{
+
 }
 
 .title-1 {
   font-family: "DM Serif Display", serif;
-  font-size: 230px;
+  font-size: 180px;
   font-weight: 400;
-  margin: 0;
-  line-height: 1;
-  color: #ffffff;
+  z-index: 100;
+  color: #rgb(255, 255, 255)
 }
 
 .description{
-  margin-top: 80px;
-  margin-bottom: 40px;
-  font-size: 18px;
-  line-height: 1.8;
-  color: #dddddd;
+
 }
 
 .nav-buttons {
-  margin-top: 50px;
-  display: flex;
-  gap: 170px;
-  font-size: 16px;
+  font-size: 14px;
   color: #bbbbbb;
-  letter-spacing: 1px;
-}
-
-.main-nav a {
-  color: #ffffff;
-  text-decoration: none;
-  margin-left: 80px;
-  font-size: 20px;
-  letter-spacing: 1px;
-  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
 }
 
 .index-Line1{
-  position: absolute;
-  bottom: 100px;
-  left: 220px;
-  width: 135px;
-  z-index: -1;
+
 }
 
 .Unseo_Index2{
   position: absolute;
-  bottom: 40px;
-  left: 100px;
-  width: 1900px;
   z-index: -2;
+  top: 0;
+  left: 0;
 }
 
 .Unseo_Index1 {
   position: absolute;
-  top: 150px;
-  right: 0px;
-  width: 800px;
-  opacity: 0.7;
+  top: 150px;    /* 원하는 위치로 조정 */
+  width: 80%;
+  max-width: 1000px;
+  opacity: 0.7;  /* 투명도 조절: 0(완전 투명) ~ 1(불투명) */
   z-index: -1;
 }
 
 .profile-section {
   position: relative;
+  height: 100vh;
+  display: flex;
+  margin-top: 80px;
+  gap: 40px;
   width: 100%;
-  max-width: 1920px;
+  max-width: 1200px;  
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .profile-container{
   display: flex ;
   gap: 200px;
-  justify-content: center;
-  align-items: center; 
 }
 
 .Proof-Photo{
@@ -160,41 +131,32 @@ section{
   font-family: "DM Serif Display", serif;
 }
 
-.profil-backtext1{
+.profil-backtext1 {
   font-family: "DM Serif Display", serif;
-  font-size: 480px;
-  opacity: 0.03;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  pointer-events: none;
-  user-select: none;
+  position: absolute; /* 또는 fixed */
+  top: 0;
+  left: 0;
   z-index: -1;
-  line-height: 1;
-  white-space: nowrap;
+  pointer-events: none; /* 클릭 방지 */
 }
 
-.profil-backtext2{
+.profil-backtext2 {
   font-family: "DM Serif Display", serif;
-  font-size: 180px;
-  opacity: 0.03;
-  position: absolute;
-  top: 100px;
-  right: 0px;
-  writing-mode: vertical-rl;
-  pointer-events: none;
-  user-select: none;
+  position: absolute; /* 또는 fixed */
+  top: 0;
+  left: 0;
   z-index: -1;
-  line-height: 1.2;
+  pointer-events: none; /* 클릭 방지 */
 }
 
 .illustrator-section {
   font-family: "DM Serif Display", serif;
   position: relative;
+  height: 100vh;
+  margin-top: 60px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .midle-title{
@@ -206,51 +168,45 @@ section{
 }
 
 .illustration-img{
-  width: 200px;
-  opacity: 0.4;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  transform: scale(0.9);
+  display: flex;
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: nowrap;
 }
 
 .illustration-img > img:nth-child(1) {
-  width: 200px;
-  opacity: 0.4;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  transform: scale(0.9);
+  flex: 0 0 auto;
+  width: 20%;
+  margin-right: 20px;
+  height: auto; 
 }
 
 .illustration-img > img:nth-child(2) {
-  width: 200px;
-  opacity: 0.4;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  transform: scale(0.9); 
+  flex: 0 0 auto;
+  width: 20%;
+  margin-right: 20px;
+  height: auto; 
 }
 
 .illustration-img > img:nth-child(3) {
-  width: 200px;
-  opacity: 0.4;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  transform: scale(0.9); 
+  flex: 0 0 auto;
+  width: 20%;
+  margin-right: 20px;
+  height: auto; 
 }
 
 .illustration-img > img:nth-child(4) {
-  width: 200px;
-  opacity: 0.4;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  transform: scale(0.9); 
+  flex: 0 0 auto;
+  width: 20%;
+  margin-right: 20px;
+  height: auto; 
 }
 
 .illustration-img > img:nth-child(5) {
-  width: 200px;
-  opacity: 0.4;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  transform: scale(0.9); 
+  flex: 0 0 auto;
+  width: 30%;
+  margin-right: 20px;
+  height: auto; 
 }
 
 .Unseo-Illustrator {
@@ -266,10 +222,11 @@ section{
 
 .self-section {
   position: relative;
+  height: 100vh;
+  margin-top: 60px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;  
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .mini-title {
@@ -299,26 +256,29 @@ section{
 
 .typo-section {
   position: relative;
+  height: 100vh;
+  margin-top: 60px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .BusanContest-section {
   position: relative;
+  height: 100vh;
+  margin-top: 60px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .podcasts-section {
   position: relative;
+  height: 100vh;
+  margin-top: 60px;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .podcasts-line1 {
@@ -343,14 +303,13 @@ section{
 .podcasts_episode {
 }
 
-.D-section{
-  position: relative;
-  box-sizing: border-box;
-}
 .D-content {
+  position: relative;
+  height: 100vh;
+  margin-top: 60px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  /* width: 100%; */
-  max-width: 1440px;
 }
 
 .D-line1 {
@@ -385,9 +344,6 @@ section{
 }
 
 .D-backtext {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
   z-index: -1;
 }
 
